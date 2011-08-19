@@ -6,7 +6,7 @@
 Summary:	A fast database for constant data with memory sharing across processes
 Name:		php-%{modname}
 Version:	1.0.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		Development/PHP
 License:	BSD
 URL:		http://pecl.php.net/package/chdb
