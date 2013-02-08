@@ -6,7 +6,7 @@
 Summary:	A fast database for constant data with memory sharing across processes
 Name:		php-%{modname}
 Version:	1.0.2
-Release:	%mkrel 2
+Release:	3
 Group:		Development/PHP
 License:	BSD
 URL:		http://pecl.php.net/package/chdb
@@ -15,7 +15,6 @@ Source1:	B15_chdb.ini
 BuildRequires:	pkgconfig
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	cmph-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 CHDB (constant hash database) is a fast key-value database for constant data,
@@ -26,9 +25,9 @@ functionalities:
 - Once a page is loaded it is shared across multiple processes.
 - Loaded pages are cached across multiple requests and even process recycling.
 A typical use of CHDB is as a faster alternative to defining many PHP
-constants.
-CHDB is internally implemented as a hash-table using a perfect hashing function,
-thus guaranteeing worst case O(1) lookup time.
+constants. 
+CHDB is internally implemented as a hash-table using a perfect hashing
+function, thus guaranteeing worst case O(1) lookup time.
 
 %prep
 
