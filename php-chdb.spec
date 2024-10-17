@@ -9,7 +9,7 @@ Version:	1.0.2
 Release:	4
 Group:		Development/PHP
 License:	BSD
-URL:		http://pecl.php.net/package/chdb
+URL:		https://pecl.php.net/package/chdb
 Source0:	http://pecl.php.net/get/chdb-%{version}.tgz
 Source1:	B15_chdb.ini
 BuildRequires:	pkgconfig
