@@ -12,6 +12,11 @@ License:	BSD
 URL:		https://pecl.php.net/package/chdb
 Source0:	http://pecl.php.net/get/chdb-%{version}.tgz
 Source1:	B15_chdb.ini
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	cmph-devel
